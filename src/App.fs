@@ -4,7 +4,7 @@ open Fable.Core.JsInterop
 open Fable.Core
 open Browser.Dom
 
-importAll "./style.css"
+importSideEffects "./style.css"
 
 // Member imports
 [<Import("alertPass", from = "./usets")>]
